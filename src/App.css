@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.header {
+  flex: 0 0 12%;
+  padding: 1.5rem 2rem;
+  border-bottom: 2px solid #e4e4e4;
+}
+
+.navbar {
+  flex: 0 0 20%;
+  padding: 1.5rem 2rem;
+  overflow: auto;
+}
+
+ul li {
+  text-transform: capitalize;
+  margin-bottom: 0.5rem;
+}
+
+.content {
+  flex: 1 0 auto;
+  @apply p-8;
+}
+
+.profile {
+  flex: 0 0 20%;
+}
+
+h1 {
+  @apply text-4xl font-bold;
+}
+
+.active {
+  @apply text-green-500;
+}
